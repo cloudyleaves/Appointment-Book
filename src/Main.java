@@ -1,6 +1,6 @@
 public class Main
 {
-    public static void main(String[] args) ]
+    public static void main(String[] args)
     {
         boolean[][] schedule = new boolean[8][60];
         AppointmentBook a = new AppointmentBook(schedule);
@@ -27,5 +27,4 @@ public class Main
         System.out.println(b.makeAppointment(2, 4, 22));
         b.printPeriod(4);
     }
-
 }
